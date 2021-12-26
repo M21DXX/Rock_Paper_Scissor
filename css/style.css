@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #353535;
+}
+
+.header { 
+    background-color: #F5F5F5; 
+    width: 100vw;
+    height: 86px;
+    color: #353535;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.big_tag {
+    width: 256px;
+    height: 120px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: solid 1.5px #F5F5F5;
+    color: #F5F5F5;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+
+
+.big_tag::before {
+    content: 'User';
+    position: absolute;
+    
+    
+}
